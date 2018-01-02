@@ -1,0 +1,3 @@
+[submodule "volume/jekyll-site"]
+	path = volume/jekyll-site
+	url = https://github.com/debiki/ed-jekyll-comments-demo-content.git
