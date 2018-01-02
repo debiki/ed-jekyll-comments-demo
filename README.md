@@ -28,3 +28,12 @@ root@a93cb8f79711:/opt/volume# cd jekyll-site/
 root@a93cb8f79711:/opt/volume/jekyll-site# bundle exec jekyll serve
 
 
+Maybe use?:
+https://github.com/daattali/beautiful-jekyll/tree/master/_includes
+http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/2017/10/29/prophecy.html
+https://github.com/camporez/Thinny
+
+https://github.com/camporez/Thinny
+
+https://github.com/johnotander/pixyll ?
+
