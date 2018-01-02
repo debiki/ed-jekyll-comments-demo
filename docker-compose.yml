@@ -1,0 +1,13 @@
+version: '3.1'
+services:
+  ruby:
+    build: docker/
+    image: debiki/ed-jekyll-comments-demo
+    volumes:
+      - ./volume/:/opt/volume/
+    ports:
+      - '4001:4000'
+    #command: cd /opt/volume/jekyll-site && bundle exec jekyll serve --host 0.0.0.0
+
+
+# vim: et ts=2 sw=2
