@@ -10,7 +10,8 @@ RUN \
   bundle install
 
 EXPOSE 4000
+EXPOSE 4002
 
-CMD cd /opt/volume/jekyll-site && bundle exec jekyll serve --host 0.0.0.0
+CMD cd /opt/volume/jekyll-site && bundle exec jekyll serve --host 0.0.0.0 --port 4002
 
 

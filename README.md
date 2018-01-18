@@ -1,9 +1,13 @@
 
-
 Start the Docker Ruby container like so:
 
 ```
 sudo docker-compose run --rm ruby bash
+
+# or
+
+sudo docker-compose up -d
+sudo docker-compose exec ruby bash
 ```
 
 
@@ -17,15 +21,17 @@ root@500819b22597:/opt/volume/jekyll-site# history
     6  bundle exec jekyll _3.6.2_ new
     7  cat Gemfile 
     8  gem install jekyll bundler
+
+Test:
     9  jekyll new jekyll-site
    10  cd jekyll-site/
    11  ls
-   12  bundle exec jekyll serve
+   12  bundle exec jekyll serve --host 0.0.0.0 --port 4000
    13  history
 
+jekyll serve --host 0.0.0.0 --port 4002
 
-root@a93cb8f79711:/opt/volume# cd jekyll-site/
-root@a93cb8f79711:/opt/volume/jekyll-site# bundle exec jekyll serve
+
 
 
 Maybe use?:

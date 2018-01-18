@@ -7,7 +7,12 @@ services:
       - ./volume/:/opt/volume/
     ports:
       - '4001:4000'
-    #command: cd /opt/volume/jekyll-site && bundle exec jekyll serve --host 0.0.0.0
+      - '4002:4002'
+    command: sleep 999999
+
+#  sudo docker-compose exec ruby bash
+#  cd /opt/volume/test-site
+#  bundle exec jekyll serve --host 0.0.0.0 --port 4002
 
 
 # vim: et ts=2 sw=2
