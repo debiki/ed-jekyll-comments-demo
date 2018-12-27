@@ -2,9 +2,10 @@
 Start the Docker Ruby container like so:
 
 ```
+# no, then port 4000 won't work, why? Oh I need to add -p... sth?
 sudo docker-compose run --rm ruby bash
 
-# or
+# Yes:
 
 sudo docker-compose up -d
 sudo docker-compose exec ruby bash
